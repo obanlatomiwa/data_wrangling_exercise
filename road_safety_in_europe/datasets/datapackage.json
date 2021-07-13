@@ -1,0 +1,161 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "result.csv",
+      "path": "https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/datasets/result.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default",
+            "title": "Country"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default",
+            "title": "Year"
+          },
+          {
+            "name": "Area",
+            "type": "number",
+            "format": "default",
+            "title": "Area"
+          },
+          {
+            "name": "Population",
+            "type": "integer",
+            "format": "default",
+            "title": "Population"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "integer",
+            "format": "default",
+            "title": "GDP per capita"
+          },
+          {
+            "name": "Population density",
+            "type": "integer",
+            "format": "default",
+            "title": "Population density"
+          },
+          {
+            "name": "Vehicle ownership",
+            "type": "integer",
+            "format": "default",
+            "title": "Vehicle ownership"
+          },
+          {
+            "name": "Total road deaths",
+            "type": "integer",
+            "format": "default",
+            "title": "Total road deaths"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants",
+            "type": "integer",
+            "format": "default",
+            "title": "Road deaths per Million Inhabitants"
+          }
+        ]
+      },
+      "title": "Results",
+      "description": "The result of the data wrangling exercise."
+    },
+    {
+      "name": "wikipedia_extracted_data.csv",
+      "path": "https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/datasets/wikipedia_extracted_data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default",
+            "title": "Country"
+          },
+          {
+            "name": "Area (thousands of km2)[24]",
+            "type": "number",
+            "format": "default",
+            "title": "Area (thousands of km2)[24]"
+          },
+          {
+            "name": "Population in 2018[25]",
+            "type": "integer",
+            "format": "default",
+            "title": "Population in 2018[25]"
+          },
+          {
+            "name": "GDP per capita in 2018[26]",
+            "type": "integer",
+            "format": "default",
+            "title": "GDP per capita in 2018[26]"
+          },
+          {
+            "name": "Population density (inhabitants per km2) in 2017[27]",
+            "type": "integer",
+            "format": "default",
+            "title": "Population density (inhabitants per km2) in 2017[27]"
+          },
+          {
+            "name": "Vehicle ownership (per thousand inhabitants) in 2016[28]",
+            "type": "integer",
+            "format": "default",
+            "title": "Vehicle ownership (per thousand inhabitants) in 2016[28]"
+          },
+          {
+            "name": "Road Network Length (in km) in 2013[29]",
+            "type": "integer",
+            "format": "default",
+            "title": "Road Network Length (in km) in 2013[29]"
+          },
+          {
+            "name": "Total Road Deaths in 2018[30]",
+            "type": "number",
+            "format": "default",
+            "title": "Total Road Deaths in 2018[30]"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants in 2018[30]",
+            "type": "integer",
+            "format": "default",
+            "title": "Road deaths per Million Inhabitants in 2018[30]"
+          },
+          {
+            "name": "Number of People Killed per Billion km[30]",
+            "type": "string",
+            "format": "default",
+            "title": "Number of People Killed per Billion km[30]"
+          },
+          {
+            "name": "Number of Seriously Injured in 2017/2018[30]",
+            "type": "string",
+            "format": "default",
+            "title": "Number of Seriously Injured in 2017/2018[30]"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "european_union_road_safety_facts_and_figures",
+  "title": "European Union Road Safety Facts and Figures",
+  "description": "A collection of scrapped data from Wikipedia on European Union Road Safety Facts and Figures and clean data result datasets.",
+  "homepage": "https://github.com/obanlatomiwa/data_wrangling_exercise",
+  "licenses": [
+    {
+      "path": "https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/LICENSE",
+      "title": "MIT"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Tomiwa Obanla",
+      "role": "author"
+    }
+  ]
+}

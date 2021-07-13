@@ -36,3 +36,5 @@ this scripts scraps data from the European Union Road Safety Facts and Figures t
 ## Datasets
 The wikipedia data is saved and located in this folder with the name "wikipedia_extracted_data.csv".
 The script result and required result is saved and located in this folder with the name "result.csv".
+
+My Tabular Data Package is located at [https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/datasets/datapackage.json](https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/datasets/datapackage.json).
