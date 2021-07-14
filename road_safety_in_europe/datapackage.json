@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "result.csv",
-      "path": "https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/datasets/result.csv",
+      "path": "https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/data/result.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -68,7 +68,7 @@
     },
     {
       "name": "wikipedia_extracted_data.csv",
-      "path": "https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/datasets/wikipedia_extracted_data.csv",
+      "path": "https://github.com/obanlatomiwa/data_wrangling_exercise/blob/main/road_safety_in_europe/data/raw/wikipedia_extracted_data.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [

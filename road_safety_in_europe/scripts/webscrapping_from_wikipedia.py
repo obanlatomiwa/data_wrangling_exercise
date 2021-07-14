@@ -61,6 +61,12 @@ def webscrapping_from_wikipedia():
                                 "Road deaths per Million Inhabitants in 2018[30]": "Road deaths per Million Inhabitants"
                                 })
 
+    # clean the column GDP per capita from unwanted characters '11,500†a' to '11500'
+    data['GDP per capita'] = data['GDP per capita'].str.replace(r'[^0-9]+', '').astype(int)
+
+    # clean the column Population from unwanted characters '82.792,351' to '82792351'
+    data['Population'] = data['Population'].str.replace(r'[^0-9]+', '').astype(int)
+
     # insert a new column "Year" to the dataframe, at the index close to Column "Country" and fill it up with value
     # "2018"
     data.insert(1, "Year", 2018)
