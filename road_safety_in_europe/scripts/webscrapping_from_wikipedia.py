@@ -34,9 +34,9 @@ def webscrapping_from_wikipedia():
     # convert the list into a dataframe
     df = pd.DataFrame(df[0])
 
-    # get current working directory and generate a filepath to the datasets folder
+    # get current working directory and generate a filepath to the data folder
     file_path = os.getcwd()
-    file_path = ''.join(file_path) + '/road_safety_in_europe/datasets/' + 'wikipedia_extracted_data.csv'
+    file_path = ''.join(file_path) + '/road_safety_in_europe/data/raw/' + 'wikipedia_extracted_data.csv'
 
     # save the csv to the dataset folder
     df.to_csv(file_path)
@@ -72,9 +72,9 @@ def webscrapping_from_wikipedia():
     # I am assuming ascending order here
     data = data.sort_values("Road deaths per Million Inhabitants")
 
-    # get current working directory and generate a filepath to the datasets folder
+    # get current working directory and generate a filepath to the data folder
     file_path = os.getcwd()
-    file_path = ''.join(file_path) + '/road_safety_in_europe/datasets/' + 'result.csv'
+    file_path = ''.join(file_path) + '/road_safety_in_europe/data/' + 'result.csv'
 
     # save the csv to the dataset folder
     data.to_csv(file_path, index=False)
